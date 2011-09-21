@@ -1,0 +1,18 @@
+%style
+  public/stylesheets/public/rallypad_signins/new.css
+.masthead
+  = image_tag('layouts/logo.rally_sash.png', :alt => 'Rally')
+#content
+  =form_for(@rallypad_signin) do |f|
+    = f.label :name
+    %span.input_wrapper= f.text_field :name
+    = f.label :email
+    %span.input_wrapper= f.text_field :email
+    = f.label :category
+    = f.select :category, RallypadSignin::CATEGORIES
+    .volunteer
+      -#= f.check_box :volunteer
+      -#= f.label :volunteer, "Interested in volunteering at RallyPad?"
+      = f.label :volunteer, "Get involved in RallyPad?", :class => "block"
+      = f.select :volunteer, ([["", ""]] + RallypadSignin::VOLUNTEER_TYPES)
+    = f.submit "RallyPad Signin"

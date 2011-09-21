@@ -1,0 +1,67 @@
+body .masthead img {
+  display: block;
+  margin: 5px auto; }
+body #content {
+  width: 400px;
+  padding: 20px 10px 20px;
+  background: white;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 4px solid #EBEBEB;
+  margin: 5px auto; }
+  body #content form {
+    margin-left: 55px; }
+    body #content form label {
+      display: block;
+      color: #767676;
+      display: block;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 4px; }
+    body #content form .volunteer {
+      margin: 5px 0; }
+      body #content form .volunteer label {
+        display: inline-block; }
+        body #content form .volunteer label.block {
+          display: block; }
+    body #content form input[type=text] {
+      display: block;
+      width: 266px;
+      padding-bottom: 7px;
+      padding-top: 7px;
+      margin: 0;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      border: 1px solid #D7D7D7; }
+    body #content form input[type=submit] {
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      background: #27bdc9;
+      background: -webkit-gradient(linear, center bottom, center top, from(#23a9b4), to(#27bdc9));
+      background: -moz-linear-gradient(90deg, #23a9b4, #27bdc9);
+      text-shadow: #1b8189 1px 1px 0;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #1f959e #1b8189 #1b8189 #1f959e;
+      box-shadow: 1px 1px 0 #32cbd7 inset;
+      -moz-box-shadow: 1px 1px 0 #32cbd7 inset;
+      -webkit-box-shadow: 1px 1px 0 #32cbd7 inset;
+      color: white;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 7px 9px 6px;
+      /*float: right;*/
+      display: block; }
+    body #content form span.input_wrapper {
+      display: inline-block;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      border: 4px solid #EBEBEB;
+      margin-bottom: 12px; }

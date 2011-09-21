@@ -1,0 +1,7 @@
+stylesheets:
+  base:
+    - public/stylesheets/reset.css
+    - public/stylesheets/global.css
+    - public/stylesheets/vendor/**/*.css
+  plain:
+    - public/stylesheets/public/rallypad_signins/new.css

@@ -1,0 +1,7 @@
+!!!
+%html
+  %head
+    %title= content_for?(:page_title) ? yield(:page_title) : "RallyPad Signin"
+    = include_stylesheets :base, :plain
+  %body
+    = yield

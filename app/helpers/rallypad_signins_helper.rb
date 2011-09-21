@@ -1,0 +1,2 @@
+module RallypadSigninsHelper
+end
